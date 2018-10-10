@@ -1,14 +1,25 @@
+# Vuestic 분석
+ - No jQuery
+ - Reactive(Page)
+ - CSS : bootstrap4
+ - table : vuetable-2
+   -. paging / filtering / sorting 등
+ - form
+   -. React와 달리 form validator 가 제공되지 않는다고 함
+    -> vee-validate 플러그인이 설치되어 있음
+ 
+ * 기타
+ - docker 확장이 가능하도록 되어 있음
+ - express 가 설치되어 있음
+ - chat플랫폼(Drift) 설치되어 있음
+
 # Vuestic Admin Dashboard
 
 Responsive admin dashboard template built with [Vue.js](https://vuejs.org) and [Bootstrap 4](https://v4-alpha.getbootstrap.com). Developed by [Epicmax](https://epicmax.co). Designed by [Vasili Savitski](https://xxsavitski.myportfolio.com/)
 
 Subscribe to our [newsletter](https://epicmax.co/newsletter) to get Vuestic updates, our team's stories and Vue.js materials hand-picked by Epicmax.
 
-<p align="center">
-  <a href="https://vuestic.epicmax.co" target="_blank">
-    <img src="https://i.imgur.com/pMuJVVc.png" align="center" width="888px"/>
-  </a>
-</p>
+git [url](https://github.com/epicmaxco/vuestic-admin)
 
 ## Demo
 Check it out [live](https://vuestic.epicmax.co)!
@@ -82,10 +93,6 @@ Got stuck? Check out our [documentation](https://github.com/epicmaxco/vuestic-ad
 * i18n
 * and many more!
 
-## Contributing
-Thanks for all your wonderful PRs, issues and ideas!
-
-[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/0)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/0)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/1)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/1)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/2)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/2)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/3)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/3)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/4)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/4)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/5)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/5)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/6)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/6)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/7)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/7)
 
 ## How can I support developers?
 - Star our GitHub repo :star:
