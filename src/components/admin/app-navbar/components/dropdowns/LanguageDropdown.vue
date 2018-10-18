@@ -39,6 +39,10 @@ export default {
       type: Array,
       default: () => [
         {
+          code: 'kr',
+          name: 'korean',
+        },
+        {
           code: 'gb',
           name: 'english',
         },
@@ -49,7 +53,7 @@ export default {
         {
           code: 'br',
           name: 'brazilian_portuguese',
-        },
+        }
       ],
     },
   },

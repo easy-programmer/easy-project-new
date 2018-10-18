@@ -12,7 +12,7 @@
     <notification-dropdown class="col nav-item"/>
     <language-dropdown class="col nav-item"/>
     <profile-dropdown class="col nav-item">
-      <img src="https://i.imgur.com/nfa5itq.png"/>
+      <img src="https://i.imgur.com/iyrUrz4.gif"/>
     </profile-dropdown>
   </vuestic-navbar>
 

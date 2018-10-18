@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <h2>{{'auth.welcome' | translate}}</h2>
-    <form method="post" action="/auth/login" name="login">
+    <form method="post" action="/#/admin/dashboard" name="login">
       <div class="form-group">
         <div class="input-group">
           <input type="text" id="email" required="required"/>
@@ -19,6 +19,9 @@
           {{'auth.login' | translate}}
         </button>
         <router-link class='link' :to="{name: 'signup'}">{{'auth.createAccount' | translate}}</router-link>
+      </div>
+      <div class="d-md-flex flex-column flex-lg-row align-items-center justify-content-center down-container">
+        <router-link class='btn btn-info' :to="{name: 'dashboard'}">{{'auth.entrance' | translate}}</router-link>
       </div>
     </form>
   </div>

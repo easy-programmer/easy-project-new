@@ -9,7 +9,8 @@
     "password": "Contraseña",
     "signUp": "Registrar",
     "termsOfUse": "Los terminos de uso",
-    "welcome": "Bienvenido!"
+    "welcome": "Bienvenido!",
+    "entrance": "Entrada"
   },
   "buttons": {
     "advanced": "Iconos, Grupos, Dropdowns",
@@ -144,7 +145,8 @@
   "language": {
     "brazilian_portuguese": "Português",
     "english": "English",
-    "spanish": "Spanish"
+    "spanish": "Spanish",
+    "korean": "Korean"
   },
   "menu": {
     "auth": "Autenticación",
