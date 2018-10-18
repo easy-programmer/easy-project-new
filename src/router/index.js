@@ -141,10 +141,25 @@ export default new Router({
         {
           name: 'tables',
           path: 'tables',
-          component: lazyLoading('tables/Table'),
-          meta: {
-            wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tables'
-          }
+          component: EmptyParentComponent,
+          children: [
+            {
+              name: 'tables',
+              path: 'tables',
+              component: lazyLoading('tables/Table'),
+              meta: {
+                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tables'
+              }
+            },
+            {
+              name: 'tables(json)',
+              path: 'tables(json)',
+              component: lazyLoading('tables/TableJ'),
+              meta: {
+                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tables'
+              }
+            }
+          ],
         },
         {
           name: 'ui',
