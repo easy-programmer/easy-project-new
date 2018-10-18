@@ -25,7 +25,7 @@ export default new Router({
     ...demoRoutes,
     {
       path: '*',
-      redirect: { name: 'dashboard' },
+      redirect: { name: 'login' },
     },
     {
       path: '/auth',
@@ -35,6 +35,7 @@ export default new Router({
           name: 'login',
           path: 'login',
           component: lazyLoading('auth/login/Login'),
+          default: true,
         },
         {
           name: 'signup',
@@ -82,7 +83,6 @@ export default new Router({
           name: 'dashboard',
           path: 'dashboard',
           component: lazyLoading('dashboard/Dashboard'),
-          default: true,
         },
         {
           name: 'statistics',

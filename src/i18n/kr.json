@@ -1,16 +1,16 @@
 {
   "auth": {
     "agree": "I agree to",
-    "alreadyJoined": "Already joined?",
-    "createAccount": "Create account",
-    "createNewAccount": "Create account",
+    "alreadyJoined": "이미 가입하셨나요?",
+    "createAccount": "계정 생성",
+    "createNewAccount": "계정 생성",
     "email": "Email",
-    "login": "Login",
+    "login": "로그인",
     "password": "Password",
-    "signUp": "Sign Up",
+    "signUp": "가입",
     "termsOfUse": "Terms of Use.",
-    "welcome": "Welcome!",
-    "entrance": "Entrance"
+    "welcome": "반갑습니다!",
+    "entrance": "입장"
   },
   "breadcrumbs": {
     "home": "Home"
@@ -41,11 +41,11 @@
   },
   "dashboard": {
     "dataVisualization": "Data Visualization",
-    "success": "SUCCESS",
+    "success": "성공",
     "successMessage": "You successfully read this important alert message.",
     "elements": "Elements",
     "features": "Features",
-    "setupProfile": "Setup Profile",
+    "setupProfile": "프로필 설정",
     "teamMembers": "Team Members",
     "usersAndMembers": "Users & Members",
     "versions": "Versions"
@@ -53,13 +53,13 @@
   "notificationsPage": {
     "alerts": {
       "title": "Alerts",
-      "success": "SUCCESS",
+      "success": "성공",
       "successMessage": "You successfully read this important alert message.",
       "info": "INFO",
       "infoMessage": "This alert needs your attention, but it's not super important.",
-      "warning": "WARNING",
+      "warning": "경고",
       "warningMessage": "Better check yourself, you're not looking too good.",
-      "danger": "DANGER",
+      "danger": "위험",
       "dangerMessage": "Change a few things up and try submitting again."
     },
     "popovers": {
@@ -254,7 +254,7 @@
     "colored": "Colored"
   },
   "navbar": {
-    "messageUs": "Web development help needed? Contact us at"
+    "messageUs": "도움이 필요하세요? 여기로 문의하세요"
   },
   "notifications": {
     "all": "See all notifications",
