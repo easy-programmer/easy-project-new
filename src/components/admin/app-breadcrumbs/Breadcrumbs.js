@@ -44,7 +44,18 @@ export default {
     },
     {
       name: 'tables',
-      displayName: 'menu.tables'
+      displayName: 'menu.tables',
+      disabled: true,
+      children: [
+        {
+          name: 'tables',
+          displayName: 'menu.formElements'
+        },
+        {
+          name: 'tables(json)',
+          displayName: 'menu.formWizards'
+        },
+      ]
     },
     {
       name: 'ui',
