@@ -13,6 +13,17 @@
  - express 가 설치되어 있음
  - chat플랫폼(Drift) 설치되어 있음
 
+# json Server
+
+- 설치
+
+```bash
+$ npm install -g json-server
+```
+- 실행
+```bash
+$ json-server --watch db.json --middlewares singular.js
+```
 # Vuestic Admin Dashboard
 
 Responsive admin dashboard template built with [Vue.js](https://vuejs.org) and [Bootstrap 4](https://v4-alpha.getbootstrap.com). Developed by [Epicmax](https://epicmax.co). Designed by [Vasili Savitski](https://xxsavitski.myportfolio.com/)
