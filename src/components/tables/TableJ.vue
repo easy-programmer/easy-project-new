@@ -209,7 +209,7 @@ import Vue from 'vue'
 import BadgeColumn from './BadgeColumn.vue'
 import FieldsDef from 'vuestic-components/vuestic-datatable/data/fields-definition'
 import ItemsPerPageDef from 'vuestic-components/vuestic-datatable/data/items-per-page-definition'
-import QueryParams from 'vuestic-components/vuestic-datatable/data/query-params'
+import QueryParams from 'vuestic-components/vuestic-datatable/data/query-params.1'
 import { SpringSpinner } from 'epic-spinners'
 
 Vue.component('badge-column', BadgeColumn)
@@ -221,7 +221,7 @@ export default {
   },
   data () {
     return {
-      apiUrl: 'https://vuetable.ratiw.net/api/users',
+      apiUrl: 'http://127.0.0.1:3000/data?singular=1',
       apiMode: true,
       tableFields: FieldsDef.tableFields,
       itemsPerPage: ItemsPerPageDef.itemsPerPage,
